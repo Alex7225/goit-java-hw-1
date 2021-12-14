@@ -1,6 +1,5 @@
 public class ATM {
-
-    public static int countBanknotes(int sum){
+    public int countBanknotes(int sum){
         int i=0;
         while (sum>=500){
             sum=sum-500; i++;
@@ -30,9 +29,4 @@ public class ATM {
             sum=sum-1; i++;
         } return i;
     }
-
-    public static void main(String[] args) {
-        
-    }
-
 }
